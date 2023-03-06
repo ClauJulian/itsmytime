@@ -1,0 +1,87 @@
+html {
+    /* background-color: rgb(172, 169, 230); */
+    background-color: darkslateblue; 
+}
+a {
+    text-decoration: unset;
+}
+body {
+    background-color:unset;
+}
+header {
+    margin: 0 0 10% 0;
+}
+main {
+    margin: 5% 5% 10% 5%;
+    /* max-width: 700px; */
+    /* background-color: darkslateblue; */
+}
+
+section {
+    /* margin: 0 5% 10% 5%; */
+    padding:5% 5% 10% 5%;;
+    /* background-color: darkslateblue; */
+}
+
+input {
+    background-color: unset;
+    border: unset;
+    text-align: center;
+}
+h2 {
+    color:white;
+    margin-bottom: 20px;
+}
+/* --- Nav --- */
+.cej-navAlign{
+    background-color: rgb(166, 49, 233);
+}
+/* --- Header --- */
+.cej-banner {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    background-image: url("img/imt3.png");
+    background-size:cover;
+    /* width: 100vw; */
+    height: 80vh;
+    margin-bottom: 5vh;
+ }
+/* --- Tareas --- */ 
+#descrip_tarea {
+    font-size: 11px;
+    padding: 5px 5px 5px 8px;
+}
+.cej-pad-tarea {
+    padding: 0px 5px 0px 8px;
+}
+.second_bg{
+    background-color: rgb(92, 86, 136); 
+}
+/* --- Tabla --- */
+.cej_col_day{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+}
+/* --- Grafico --- */
+.cej-label {
+    width: 80px;
+    /* background-color: darkmagenta; */
+}
+.progress {
+    height: 30px;
+}
+/* --- Footer --- */
+footer{
+    padding: 3% 15% 3% 15%;
+    background-color: rgb(92, 21, 143);
+    color:unset;
+    color:rgb(214, 218, 225);
+}
+.cj-menuFooter{
+    color:unset;
+    color:rgb(214, 218, 225);
+}
